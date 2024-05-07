@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Networking and Server management",
     icon: creator,
   },
 ];
@@ -116,55 +116,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Credit Card analysis ",
+    company_name: "R Programming Language",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 10th 2023 - November 22nd 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+       "Actively collaborated in a team of four people to conduct an in-depth analysis and cleansing of data using the versatile R programming language.",
+      "Employed advanced visualization techniques, leveraging plotly and other relevant packages, to extract nuanced and insightful patterns.",
+      "Innovatively designed and developed a sophisticated web application featuring a user-friendly interface, skillfully utilizing the Shiny package.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "ChatRoom Application",
+    company_name: "Python Programming Language",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "February 20th 2024 - February 25th 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered a robust Chat Room Application in Python, implementing intricate socket programming functions and methods.",
+      "Demonstrated versatility by crafting both a command-line interface and an aesthetically pleasing graphical user interface (GUI) using the tkinter library.",
+      "Empowered users to engage in seamless communication over the same network through the application of advanced socket functionalities.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Patient Tracker",
+    company_name: "Flutter Framework and Dart Programming Language",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 7th 2024 - April 26th 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a comprehensive Flutter application to facilitate the management of health-related data including hospital visits, medical records, and appointments.",
+      "Implemented features such as user authentication, intuitive interface, and secure data handling to ensure user convenience and privacy.",
+      "Welcomed contributions from the community to enhance the application's functionalities and user experience.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Roommate To Survive",
+    company_name: "Flask Web Framework and Python Programming Language",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic web application using the Flask web framework and Python programming language to assist users in finding compatible rooms within their locality.",
+      "Implemented authentication, personalized experiences , localization and internationalization.",
+      "Made secure connections, error handling capability and encryption.",
+      "The styling and pagination of the website is ongoing for a complete project for deployment.",
     ],
   },
 ];

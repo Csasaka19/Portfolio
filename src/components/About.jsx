@@ -45,13 +45,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[19px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a passionate Software Developer based in Nairobi, Kenya. With a strong foundation in programming, team collaboration and leadership, I am currently pursuing a Bachelor's degree in Applied Computer Science at Daystar University. My technical skills encompass a wide array of languages and technologies including C, JavaScript, Python, Dart, Unix, Linux, SQL, MongoDB, and more. I have demonstrated my expertise through projects such as R Credit, a data analysis and web application, a Chatroom Application in Python, and a Patient Tracker Flutter Application. As a Co-Lead of Google Developers Students Club, I have honed my leadership skills in coordinating projects and fostering effective team communication. I am eager to collaborate closely with clients to create efficient, scalable, and user-friendly solutions that address real-world challenges. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
