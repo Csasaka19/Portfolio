@@ -116,6 +116,67 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Udacity",
+    course_name: "Intro to Programming Nanodegree Program",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "July 2023 - October 2023",
+    points: [
+      "Learnt the emerging fundamentals in javascript and python.",
+      "Made corrections to a shopping cart javascript web application as per the course requirements.",
+      "Developed some python programs to understand some fundamental libraries in the language.",
+      "Received a certificate of completion for the course.",
+    ],
+  },
+  {
+    title: "ALX",
+    course_name: "Full stack Software Engineering",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "November 2022 - November 2023",
+    points: [
+      "A 12 month intensive program that covers the full stack of software engineering.",
+      "The program covered all the relevant technologies and tools needed to become a full stack software engineer.",
+      "It also strengthened soft skills such as communication, team work, problem solving and critical thinking.",
+      "The program was completed with a capstone project that was presented to the company.",
+      "The capstone project was a full stack web application that was built from scratch.",
+      "Enabled me with people from diverse backgrounds ,cultures and countries that strengthened the ability to work in teams.",
+    ],
+  },
+  {
+    title: "CS50",
+    course_name: "Havard University's Introduction to Computer Science",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "December 2023 - February 2024",
+     points : [
+    "Completed a comprehensive course on edX focusing on data structures and algorithms, providing a strong understanding of organizing and manipulating data efficiently.",
+    "Enhanced proficiency in the C programming language, mastering syntax and leveraging its power for efficient algorithm implementation.",
+    "Developed skills in web development using Flask, enabling creation of dynamic and interactive web applications.",
+    "Acquired expertise in database management, learning to design and optimize databases for effective information storage and retrieval.",
+    "Completed a challenging project synthesizing concepts from data structures, algorithms, C programming, Flask, and database management, demonstrating practical application of theoretical knowledge."
+  ],
+  },
+  {
+    title: "Daystar University",
+    course_name: "Bachelor in Applied Computer Science",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "August 2021 - Present",
+    points: [
+    "Received comprehensive training in database management, mastering techniques for designing, optimizing, and maintaining databases for efficient information storage and retrieval.",
+    "Developed expertise in network management, acquiring skills in configuring, monitoring, and troubleshooting network infrastructure to ensure smooth and secure communication.",
+    "Strengthened understanding of computer security principles, learning methods for identifying vulnerabilities, implementing security measures, and safeguarding systems and data from cyber threats.",
+    "Acquired proficiency in mathematical concepts relevant to computer science, including discrete mathematics, linear algebra, probability theory, and algorithm analysis, enhancing problem-solving abilities and algorithm design skills.",
+    "Mastered object-oriented programming concepts and techniques, gaining proficiency in languages such as C++, Java, and Dart, and applying principles of abstraction, encapsulation, inheritance, and polymorphism to design and develop modular and reusable software components.",
+    "Developed mobile applications using Flutter, a framework for building cross-platform applications, leveraging Dart programming language to create responsive and visually appealing mobile interfaces and functionalities.",
+    "Expanded language proficiency in C, C++, Java, and Dart, enabling development across diverse platforms and technologies."
+  ],
+  },
+];
+
+const education = [
+  {
     title: "Credit Card analysis ",
     company_name: "R Programming Language",
     icon: starbucks,
@@ -259,4 +320,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, education };
