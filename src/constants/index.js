@@ -114,7 +114,7 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const education = [
   {
     title: "Udacity",
     course_name: "Intro to Programming Nanodegree Program",
@@ -175,9 +175,9 @@ const experiences = [
   },
 ];
 
-const education = [
+const experiences = [
   {
-    title: "Credit Card analysis ",
+    title: "Credit Card analysis",
     company_name: "R Programming Language",
     icon: starbucks,
     iconBg: "#383E56",
@@ -227,97 +227,158 @@ const education = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Credit Card analysis",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A shiny web application that enables users to analyze credit card data, visualize trends, and generate insights using the R programming language.",
     tags: [
       {
-        name: "react",
+        name: "R Language",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "shiny app",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "plotly",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Csasaka19/R_credit",
   },
   {
-    name: "Job IT",
+    name: "ChatRoom Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A versatile chat room application that allows users to communicate over the same network, featuring both a command-line interface and a graphical user interface.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Sockets",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tkinter",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Csasaka19/Chatroom-App",
   },
   {
-    name: "Trip Guide",
+    name: "Patient Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Flutter application that enables users to manage their health-related data, including hospital visits, medical records, and appointments.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Dart",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "php",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Csasaka19/patient-tracker",
+  },
+  {
+    name: "Roommate To Survive",
+    description:
+      "A web application that enables users to find affordable rooms within their localities.",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/Csasaka19/Roommate-to-survive",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, education };
+const licensesAndCertifications = [
+  {
+    title: "Scratch and Computer Science",
+    issuer: "Tech Republic Africa",
+    issue_date: "September 2015",
+    credential_url: "https://drive.google.com/file/d/10jjXr57soVCOcxE7yBEggE_22qgYv2GX/view?usp=sharing",
+  },
+  {
+    title: "Database Management Certification",
+    issuer: "Oracle Academy",
+    issue_date: "December 2022",
+    credential_url: "https://drive.google.com/file/d/1En5N4Fg8-7i78yA4vO5wB-jxfhLPnOFE/view?usp=sharing",
+  },
+  {
+    title: "Programming Nanodegree Certification",
+    issuer: "Udacity",
+    issue_date: "October 2023",
+    credential_url: "https://drive.google.com/file/d/1E4Gu6_t6gQygvOnNpVyVkZErDEk79gXh/view?usp=sharing",
+  },
+  {
+    title: "Core Member Badge",
+    issuer: "Google Developers Student Club",
+    issue_date: "September 2023",
+    credential_url: "https://developers.google.com/profile/badges/community/gdsc/2023/core-member/",
+  },
+  {
+    title: "Software Engineering Certification",
+    issuer: "ALX Africa",
+    issue_date: "November 2023",
+    credential_url: "https://drive.google.com/file/d/1IHHHhyqaNhfJ5DDiRoW9RlFO6XotMGZE/view?usp=sharing",
+  },
+  {
+    title: "Azure Responsible AI Workshop",
+    issuer: "Microsoft Americas Azure Team",
+    issue_date: "March 2024",
+    credential_url: "https://drive.google.com/file/d/1IHHHhyqaNhfJ5DDiRoW9RlFO6XotMGZE/view?usp=sharing",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "Helped the Lead coordinate and hold sessions of various google programming modules.",
+    name: "Google Developers Student Club",
+    designation: "CoLead",
+    company: "GDSC",
+    image: "https://www.gravatar.com/avatar/%7Bdigest%7D?d=identicon&s=256",
+  },
+  {
+    testimonial:
+      "Got to promote and advertise the backend and front end program to new cohorts.",
+    name: "ALX SE Ambassador",
+    designation: "Ambassador",
+    company: "ALX",
+    image: "https://www.gravatar.com/avatar/%7Bdigest%7D?d=identicon&s=256",
+  },
+  {
+    testimonial:
+      "I write some insightful blogs on the latest technologies and trends in the tech industry.",
+    name: "Medium Blogger",
+    designation: "Blogger",
+    company: "Articles",
+    image: "https://www.gravatar.com/avatar/%7Bdigest%7D?d=identicon&s=256",
+  },
+];
+
+
+export { services, technologies, experiences, testimonials, projects, education, licensesAndCertifications };
