@@ -7,21 +7,33 @@ import {
   typescript,
   html,
   css,
-  reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  bash,
+  c,
+  dart,
+  datadog,
+  maria,
+  pythoon,
+  r,
+  redis,
+  trello,
+  alx,
+  cs50,
+  daystar,
+  udacity,
+  R,
+  python,
+  flutter,
+  flask,
+  Credit,
+  Chatroom,
+  patient,
+  roommate,
   threejs,
 } from "../assets";
 
@@ -61,34 +73,10 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
+   {
     name: "Node JS",
     icon: nodejs,
   },
@@ -97,20 +85,72 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "bash",
+    icon: bash,
+  },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "dart",
+    icon: dart,
+  },
+  {
+    name: "flask",
+    icon: flask,
+  },
+  {
+    name: "flutter",
+    icon: flutter,
+  },
+  {
+    name: "python",
+    icon: pythoon,
+  },
+  {
+    name: "datadog",
+    icon: datadog,
+  },
+  {
+    name: "redis",
+    icon: redis,
+  },
+  {
+    name: "maria",
+    icon: maria,
+  },
+  {
+    name: "trello",
+    icon: trello,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
 
@@ -118,7 +158,7 @@ const education = [
   {
     title: "Udacity",
     course_name: "Intro to Programming Nanodegree Program",
-    icon: starbucks,
+    icon: udacity,
     iconBg: "#383E56",
     date: "July 2023 - October 2023",
     points: [
@@ -131,7 +171,7 @@ const education = [
   {
     title: "ALX",
     course_name: "Full stack Software Engineering",
-    icon: tesla,
+    icon: alx,
     iconBg: "#E6DEDD",
     date: "November 2022 - November 2023",
     points: [
@@ -145,8 +185,8 @@ const education = [
   },
   {
     title: "CS50",
-    course_name: "Havard University's Introduction to Computer Science",
-    icon: shopify,
+    course_name: "Harvard University's Introduction to Computer Science",
+    icon: cs50,
     iconBg: "#383E56",
     date: "December 2023 - February 2024",
      points : [
@@ -160,7 +200,7 @@ const education = [
   {
     title: "Daystar University",
     course_name: "Bachelor in Applied Computer Science",
-    icon: meta,
+    icon: daystar,
     iconBg: "#E6DEDD",
     date: "August 2021 - Present",
     points: [
@@ -179,7 +219,7 @@ const experiences = [
   {
     title: "Credit Card analysis",
     company_name: "R Programming Language",
-    icon: starbucks,
+    icon: R,
     iconBg: "#383E56",
     date: "November 10th 2023 - November 22nd 2023",
     points: [
@@ -191,7 +231,7 @@ const experiences = [
   {
     title: "ChatRoom Application",
     company_name: "Python Programming Language",
-    icon: tesla,
+    icon: python,
     iconBg: "#E6DEDD",
     date: "February 20th 2024 - February 25th 2024",
     points: [
@@ -203,7 +243,7 @@ const experiences = [
   {
     title: "Patient Tracker",
     company_name: "Flutter Framework and Dart Programming Language",
-    icon: shopify,
+    icon: flutter,
     iconBg: "#383E56",
     date: "February 7th 2024 - April 26th 2024",
     points: [
@@ -215,7 +255,7 @@ const experiences = [
   {
     title: "Roommate To Survive",
     company_name: "Flask Web Framework and Python Programming Language",
-    icon: meta,
+    icon: flask,
     iconBg: "#E6DEDD",
     date: "August 2023 - Present",
     points: [
@@ -246,7 +286,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Credit,
     source_code_link: "https://github.com/Csasaka19/R_credit",
   },
   {
@@ -267,7 +307,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: Chatroom,
     source_code_link: "https://github.com/Csasaka19/Chatroom-App",
   },
   {
@@ -288,7 +328,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: patient,
     source_code_link: "https://github.com/Csasaka19/patient-tracker",
   },
   {
@@ -309,7 +349,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: roommate,
     source_code_link: "https://github.com/Csasaka19/Roommate-to-survive",
   },
 ];
@@ -356,7 +396,7 @@ const licensesAndCertifications = [
 const testimonials = [
   {
     testimonial:
-      "Helped the Lead coordinate and hold sessions of various google programming modules.",
+      "Lead in the coordination and holding sessions of various google programming modules.",
     name: "Google Developers Student Club",
     designation: "CoLead",
     company: "GDSC",
@@ -364,7 +404,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Got to promote and advertise the backend and front end program to new cohorts.",
+      "Promoted and advertised the backend and front end software programs to new cohorts.",
     name: "ALX SE Ambassador",
     designation: "Ambassador",
     company: "ALX",

@@ -15,20 +15,30 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import bash from "./tech/bash.png";
+import c from "./tech/c.png";
+import dart from "./tech/dart.png";
+import datadog from "./tech/datadog.png";
+import maria from "./tech/maria.jpg";
+import pythoon from "./tech/python.png";
+import r from "./tech/R.png";
+import redis from "./tech/redis.png";
+import trello from "./tech/trello.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import alx from "./education/alx.png";
+import cs50 from "./education/cs50.png";
+import daystar from "./education/daystar.png";
+import udacity from "./education/udacity.png";
+import R from "./education/R.jpeg";
+import python from "./education/python.jpeg";
+import flutter from "./education/flutter.png";
+import flask from "./education/flask.png";
+import Credit from "./Credit.png";
+import Chatroom from "./Chatroom-sessions.png";
+import patient from "./patient.png";
+import roommate from "./roommate.png";
 
 export {
   logo,
@@ -47,16 +57,27 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bash,
+  c,
+  dart,
+  datadog,
+  maria,
+  pythoon,
+  r,
+  redis,
+  trello,
+  alx,
+  cs50,
+  daystar,
+  udacity,
+  R,
+  python,
+  flutter,
+  flask,
+  Credit,
+  Chatroom,
+  patient,
+  roommate,
 };
