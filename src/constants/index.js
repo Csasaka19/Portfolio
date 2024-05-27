@@ -34,7 +34,7 @@ import {
   Chatroom,
   patient,
   roommate,
-  threejs,
+  certificate,
 } from "../assets";
 
 export const navLinks = [
@@ -73,6 +73,10 @@ const services = [
 
 const technologies = [
   {
+    name: "C",
+    icon: c,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -87,10 +91,6 @@ const technologies = [
   {
     name: "bash",
     icon: bash,
-  },
-  {
-    name: "c",
-    icon: c,
   },
   {
     name: "dart",
