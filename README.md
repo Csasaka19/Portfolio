@@ -627,7 +627,7 @@ module.exports = {
 
 ## Deployment
 
-I am yet to deploy the web application but here is a snippet below.
+I am yet to deploy the web application.
 
 <video width="320" height="240" controls>
   <source src="src/assets/snippet.mp4" type="video/mp4">
