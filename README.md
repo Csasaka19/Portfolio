@@ -624,3 +624,12 @@ module.exports = {
 ```
 
 </details>
+
+## Deployment
+
+I am yet to deploy the web application but here is a snippet below.
+
+<video width="320" height="240" controls>
+  <source src="src/assets/snippet.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
